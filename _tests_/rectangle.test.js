@@ -1,15 +1,20 @@
-export default function planetAge from './../src/planet-age.js';
+//test suite for tests related to the planetAge class
 
-describe('planetAge', function() {
-  let inputAge;
-}
+import Rectangle from '../src/js/rectangle.js';
+
+describe('Rectangle', () => {
+
+  test('should correctly create a rectangle object using two sides', () => {
+    const rectangle = new Rectangle(3,5);
+    expect(rectangle.getArea()).toEqual(15);
+  });
+});
+
+
 
 
 //test for calculating age in mercury years
-describe('agePlanet', () => {
-  test('should calculate age on Mercury', () => {
-    const mercuryAge = new mercuryAge(88);
-    expect()
+
 
 //test for calculating age in venus years
 
