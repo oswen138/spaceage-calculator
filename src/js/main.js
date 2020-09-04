@@ -4,15 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import {agePlanet} from './js/planet-age.js';
 
-
-
 $(document).ready(function() {
-  $('#triangle-checker-form').submit(function(event) {
+  $('#calculator-form').submit(function(event) {
     event.preventDefault();
-    const length1 = parseInt($('#length1').val());
-    const length2 = parseInt($('#length2').val());
-    const length3 = parseInt($('#length3').val());
-    const triangle = new Triangle(length1, length2, length3);
-    const response = triangle.checkType();
+    const planet = $('#planet-name');
+    const earthAge = parseInt($('#earth-age').val());
+    const planetStay = parseInt($('#planet-stay').val());
+    const response = planetAge.checkType();
     $('#response').append(`<p>${response}</p>`);
   });
