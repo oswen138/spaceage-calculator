@@ -10,5 +10,8 @@
 .row {
   display: flex;
 }
+.h1 {
+  font: 100;
+}
 
 
