@@ -13,11 +13,11 @@ A website created with HTML, Javascript, and CSS where a user can submit informa
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **Program returns their age in Mercury years** | 20 Earth Years| 83 Mercury Years |
-| **Program returns their age in Venus years** | User input: "pants" | Output: "pants" |
-| **Program Removes Spaces from User Input**| User Input: "pants pants" | Output: "pantspants" |
-| **Program Removes Punctuation from User Input**| Input: "p#an^t@s  /p(ant%s" | Output: "pantspants" |
-| **Program Assigns Characters Numeric Values** | Input: "pants" | Output: "3 1 1 1 1" |
-| **Program Sums Character Values**| Input: "3 1 1 1 1" | Page Displays: 7 |
+| **Program returns their age in Venus years** | 20 Earth Years | 32 Venus Years |
+| **Program returns their age in Mars years**| 20 Earth Years | 11 Mars Years |
+| **Program returns their age in Jupiter years**| 20 Earth Years | 2 Jupiter Years |
+| **Program determines years left to live on planet** | 100 Earth Years Life Expectancy,  | 17 days left to live on Mercury |
+| **Program returns the number years lived past the life expectancy**| 200 Earth Years Old | Page Displays: 7 |
 
 ## Setup/Installation Requirements
 
